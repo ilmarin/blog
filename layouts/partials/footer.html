@@ -1,0 +1,54 @@
+    <footer id="footer">
+        <section id="footer-message">
+            &copy; {{.Site.Title}}. All rights reserved. Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>. <a href="https://github.com/kathyqian/crisp-ghost-theme" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a> (ported by <a href="http://profiles.google.com/thibault.normand">Thibault Normand</a>).
+        </section>
+    </footer>
+
+    <script>
+      (function(c,f){asyncLoader=function(i,h){i.foreach(function(k,j){e(j,d(j),h)});if(typeof h.callback=="function"){var g=setInterval(function(){if(f.readyState==="complete"){clearInterval(g);h.callback()}},10)}};var d=function(g){var h=g.split(".");return h[h.length-1]},e=function(h,i,g){switch(i){case"js":a(h,g);break;case"css":b(h);break;default:break}},a=function(i,h){var g=document.createElement("script");g.type="text/javascript";g.async=true;g.src=i;document.getElementsByTagName("head")[0].appendChild(g)},b=function(g){var h=document.createElement("link");h.type="text/css";h.rel="stylesheet";h.href=g;document.getElementsByTagName("head")[0].appendChild(h)};Array.prototype.foreach=function(h){for(var g=0;g<this.length;g++){h(g,this[g])}}})(this,document);
+
+      var WebFontConfig={google:{families:["Open Sans:300italic,700italic,300,700","Merriweather:700&amp;subset=cyrillic"]}};
+      asyncLoader([
+        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css",
+        "//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js",
+        "//cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js",
+        "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"        
+      ],{
+        callback:function(){
+          asyncLoader([
+            "{{ .Site.BaseURL }}css/rrssb.css",
+            "{{ .Site.BaseURL }}js/gist.min.js", 
+            "{{ .Site.BaseURL }}js/rrssb.min.js",                           
+            "{{ .Site.BaseURL }}js/jquery.scrolline.js",
+            "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css"
+          ], { callback:function() {
+              hljs.initHighlighting();
+          }});
+        }
+      });
+    </script>
+    <!--Yandex.Metrika counter--><script type="text/javascript">(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter32796715 = new Ya.Metrika({
+                id:32796715,
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+            });
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/32796715" style="position:absolute; left:-9999px;" alt=""></div></noscript><!--/Yandex.Metrika counter-->
+	</body>
+</html>

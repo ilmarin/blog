@@ -1,0 +1,9 @@
+<nav class="pagination">
+	{{if .HasPrev}}
+	    <a class="newer-posts" href="{{ .Prev.URL }}">&larr; Свежие посты</a>
+	{{end}}
+	<span class="page-number">Страница {{ .PageNumber }} из {{.TotalPages}}</span>
+	{{if .HasNext}}
+	    <a class="older-posts" href="{{ .Next.URL }}">Прошлые посты &rarr;</a>
+	{{end}}
+</nav>
