@@ -3,6 +3,7 @@ date = "2018-01-07T15:40:09+05:00"
 title = "Реализация RESTful API в Yii2"
 author = "Илья Маринин"
 description = "Построение RESTful Web Service API с помощью Yii2"
+tags = ["yii","php"]
 
 +++
 
