@@ -22,6 +22,7 @@ logofile = "/img/logo.jpg"
 lang = "ru"
 disqus = "marinin-pw"
 twitter="ilya_marinin"
+hideReadingTime = true
 
 [taxonomies]
   tag = "tags"
