@@ -1,4 +1,4 @@
-baseurl = "http://www.marinin.pw/"
+baseurl = "https://www.marinin.pw/"
 builddrafts = true
 canonifyurls = true
 contentdir = "content"
