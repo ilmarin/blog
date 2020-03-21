@@ -6,7 +6,7 @@ description = "Процесс добавления новых расширени
 tags = ["homestead","php","laravel","symfony"]
 +++
 
-[Homestead](https://laravel.com/docs/6.x/homestead) &mdash; это набор конфигов от [Laravel](https://laravel.com/) виртуальной машины на базе [Vagrant](https://www.vagrantup.com/).
+[Homestead](https://laravel.com/docs/6.x/homestead) &mdash; это набор конфигов от сообщества [Laravel](https://laravel.com/) виртуальной машины на базе [Vagrant](https://www.vagrantup.com/).
 
 Новичкам иногда сложно сходу добавить новый функционал в виртуальную машину на базе Homestead.
 
