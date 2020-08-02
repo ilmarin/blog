@@ -1,4 +1,4 @@
-.idea
+/.idea/*
 /deploy.sh
 /themes/*
 /nbproject/*
