@@ -1,2 +1,3 @@
-#/bin/bash
-hugo server -w
+#!/bin/bash
+
+hugo server

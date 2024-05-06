@@ -1,4 +1,2 @@
-/.idea/*
-/deploy.sh
-/themes/*
-/nbproject/*
+/.vscode/
+.hugo_build.lock

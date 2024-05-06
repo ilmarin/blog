@@ -5,5 +5,4 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-hugo new post/$1.md
-vim content/post/$1.md
+hugo new --kind post post/$1.md

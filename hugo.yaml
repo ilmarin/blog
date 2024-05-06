@@ -1,0 +1,87 @@
+baseURL: https://www.marinin.pw/
+
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Ilia Marinin
+  description: "Ilia Marinin: software developer"
+  keywords: [Blog, Programming, Software, Development, Marinin, Программирование, Разработка, Маринин]
+  defaultTheme: auto # dark, light
+
+  assets:
+    msapplication_TileColor: "#6a7084"
+
+  socialIcons:
+    - name: email
+      url: "mailto:ilya(at)marinin.pw"
+    - name: x
+      url: "https://x.com/ilya_marinin"
+    - name: linkedin
+      url: "http://linkedin.com/in/ilya-marinin-bbb931a6"
+    - name: github
+      url: "https://github.com/ilmarin"
+
+  ShareButtons: ["telegram", "linkedin", "whatsapp", "reddit", "x", "facebook"]
+  ShowShareButtons: true
+
+# profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    imageUrl: "/img/logo.jpg"
+    imageWidth: 120
+    imageHeight: 120
+
+services:
+    googleAnalytics:
+      ID: G-0TYB9D8NSM
+
+taxonomies:
+  tag: tags
+
+# Languages config
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    languageCode: en-US
+    languageName: English
+    title: "Ilia Marinin"
+    weight: 10
+    params:
+      DateFormat: "January 2, 2006"
+      profileMode:
+        title: "Hey \U0001F44B"
+        subtitle: "My name is Ilia. I’m a software developer, and this is my homepage. Below you can find my contacts."
+        imageTitle: This is me
+  ru:
+    languageCode: ru-RU
+    languageName: Русский
+    title: "Илья Маринин"
+    menus:
+      main:
+      - name: теги
+        pageRef: tags
+        weight: 20
+      - name: посты
+        pageRef: posts
+        weight: 10
+    weight: 20
+    params:
+      DateFormat: "2 January 2006 г."
+      profileMode:
+        title: "Привет \U0001F44B"
+        subtitle: "Меня зовут Илья, а это мой сайт. Я разработчик ПО, сейчас живу в Берлине. Здесь я делюсь своими мыслями о жизни и программировании."
+        imageTitle: Это я
+        buttons:
+          - name: Читать
+            url: posts
+          - name: Теги
+            url: tags
