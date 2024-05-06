@@ -19,6 +19,11 @@ params:
   assets:
     msapplication_TileColor: "#6a7084"
 
+  outputs:
+    home:
+    - html
+    - rss
+
   socialIcons:
     - name: email
       url: "mailto:ilya(at)marinin.pw"
@@ -28,6 +33,12 @@ params:
       url: "http://linkedin.com/in/ilya-marinin-bbb931a6"
     - name: github
       url: "https://github.com/ilmarin"
+    - name: rss
+      url: "index.xml"
+
+  # RSS
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
 
   ShareButtons: ["telegram", "linkedin", "whatsapp", "reddit", "x", "facebook"]
   ShowShareButtons: true
@@ -42,6 +53,8 @@ params:
 services:
     googleAnalytics:
       ID: G-0TYB9D8NSM
+    rss:
+      limit: 20
 
 taxonomies:
   tag: tags
