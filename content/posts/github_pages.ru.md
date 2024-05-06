@@ -1,10 +1,10 @@
 +++
-title = "Github Pages для статичного сайта"
+title = "GitHub Pages для статичного сайта"
 date = 2020-08-02T17:54:28+03:00
 aliases = ["/post/github_pages"]
 +++
 
-Давно использую [Github Pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites) для хостинга блога и вполне доволен.
+Давно использую [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites) для хостинга блога и вполне доволен.
 
 Инструмент позволяет бесплатно:
 
