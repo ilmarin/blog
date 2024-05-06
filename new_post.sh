@@ -5,4 +5,4 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-hugo new --kind post post/$1.md
+hugo new --kind post posts/$1.md
