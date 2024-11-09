@@ -51,8 +51,6 @@ params:
     imageHeight: 120
 
 services:
-    googleAnalytics:
-      ID: G-0TYB9D8NSM
     rss:
       limit: 20
 
